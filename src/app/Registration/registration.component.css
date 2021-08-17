@@ -21,6 +21,7 @@
     color: white;
     overflow-y: scroll;
     margin-left: 10px;
+    animation: 5s;
 }
 
 .registration .container form .company p {

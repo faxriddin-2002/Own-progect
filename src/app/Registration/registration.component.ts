@@ -18,6 +18,7 @@ export class RegistrationComponent implements OnInit {
     this.y = document.querySelector(".company");
     this.x =document.querySelector('.registration');
     this.y.style.display = "block";
+    this.y.style.animation= "easy";
     this.x.style.height = "1100px"
   }
 }

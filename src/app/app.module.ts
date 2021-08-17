@@ -16,6 +16,7 @@ import { FormsService } from './Registration/forms.service';
 import { MenuComponent } from "./menu/menu.component";
 import { MenuHomepageComponent } from "./menu/menu-homepage/menu-homepage.component";;
 import { MenuInnerComponent } from "./menu/menu-inner/menu-inner.component";
+import { MenuService } from "./menu/menu.service"
 
 
 
@@ -47,7 +48,7 @@ const go =[
     AppRoutingModule, 
     RouterModule.forRoot(go)
   ],
-  providers: [CardService, FormsService],
+  providers: [CardService, FormsService, MenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

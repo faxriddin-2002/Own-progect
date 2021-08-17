@@ -52,3 +52,148 @@
 .cart .text .textin .buton button:hover {
     box-shadow: 2px 2px rgba(68, 78, 68, 0.219);
 }
+
+@media screen and (max-width: 1200px) {
+    .cart .text .textin {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .cart .text .textin h1 {
+        font-size: 30px;      
+    }
+
+    .cart .text .textin p {
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    
+    .cart .text .textin .buton button {
+        margin: 5px;
+        height: 40px;
+    }
+
+    .cart .text .text-img {
+        width: 50%;
+        height: 226px;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .cart .text .text-img img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .cart .text .textin {
+        width:  30%;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .cart .text .textin h1 {
+        font-size: 20px;      
+    }
+
+    .cart .text .textin p {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    
+    .cart .text .textin .buton button {
+        margin: 5px;
+        height: 20px;
+        width: 100px;
+    }
+
+    .cart .text .text-img {
+        width: 70%;
+        height: 100px;
+        background-size: cover;
+        margin-top: 10px;
+    }
+
+    .cart .text .text-img img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .cart {
+        width: 100%;
+        height:  331px;
+    }
+    
+.cart .container .logo {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.cart .container .logo img {
+    width: 120px;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+    .cart .text .textin {
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    .cart .text .textin h1 {
+        font-size: 25px;      
+    }
+
+    .cart .text .textin p {
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    
+    .cart .text .textin .buton button {
+        margin: 5px;
+        height: 40px;
+    }
+
+    .cart .text .text-img {
+        width: 60%;
+        height: 150px;
+        background-size: cover;
+        margin-top: 10px;
+    }
+
+    .cart .text .text-img img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .cart {
+        width: 100%;
+        height:  331px;
+    }
+    
+.cart .container .logo {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.cart .container .logo img {
+    width: 120px;
+    height: 100%;
+  }
+}

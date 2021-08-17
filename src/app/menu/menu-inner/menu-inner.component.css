@@ -1,0 +1,157 @@
+.menuing {
+    background-color: #4E8383;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.menuing .container {
+    width: 82%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.menuing .container .menu-comp {
+  display: flex;
+  width: 65%;
+  height: auto;
+}
+
+.menuing .container .menu-comp .menu-one {
+    width: 45%;
+    /* height: 200px; */
+    display: flex;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.menuing .container .menu-comp .menu-one .img-menu {
+ width: 60%;
+ background-color: #1FBC38;
+ background-size: cover;
+ border-radius: 5px 0px 0px 5px;
+}
+
+.container .menu-comp .menu-one .img-menu img {
+    width: 80%;
+    /* height: 70%; */
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.menuing .container .menu-comp .menu-one .text-menu {
+  width: 40%;
+  background-color: #809DA4;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.menuing .container .menu-comp .menu-one .text-menu .inner {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* margin-top: 15px; */
+  }
+
+.menuing .container .menu-comp .menu-one .text-menu .inner h1 {
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: 600;
+}
+
+.menuing .container .menu-comp .menu-one .text-menu .inner h6 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.menuing .container .menu-comp .menu-one .text-menu .inner form {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    /* background-color: black */
+}
+
+.menuing .container .menu-comp .menu-one .text-menu .inner form input {
+  border-radius: 5px;
+  width: 90%;    
+}
+
+.menuing .container .menu-comp .menu-one .text-menu .inner form button {
+    height: 25px;
+    width: 90%;
+    align-items: center;
+    position: grid;
+    font-size: 12px;
+}
+
+.menuing .container .menu-comp .menu-one .text-menu .inner form button p {
+  margin-top: 14px;
+  padding-left: 4px;
+}
+
+@media screen and (max-width: 1360px) {
+  .menuing .container .menu-comp .menu-one .text-menu .inner form button p {
+    display: none;
+  }
+
+  .menuing .container .menu-comp .menu-one .text-menu .inner form button i {
+    text-align: center;
+    justify-content: center;
+    margin: 0% 35% 0% 35%;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .menuing .container {
+    display: block; 
+  }
+
+  .menuing .container .menu-comp {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .menuing .container .menu-comp .menu-one {
+    width: 47%;
+    height: 180px;
+  }
+
+  .menuing .container .menu-comp .menu-one .text-menu .inner form {
+    margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .menuing .container .menu-comp .menu-one .text-menu .inner form {
+    margin-top: 30px;
+    }
+    .menuing .container .menu-comp .menu-one {
+      width: 48%;
+      height: 190px;
+    }
+
+    .menuing .container .menu-comp .menu-one .text-menu .inner h1 {
+      font-size:14px;
+   }
+   .menuing .container .menu-comp .menu-one .text-menu .inner h6 {
+    font-size: 10px;
+  }
+  .container .menu-comp .menu-one .img-menu img {
+    width: 80%;
+    /* height: 70%; */
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+}
+
+
+@media screen and (max-width: 600) {
+    .menuing .container .menu-comp .menu-one {
+      width: 48%;
+      height: 185px;
+    }
+}
