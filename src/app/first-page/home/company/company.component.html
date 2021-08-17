@@ -1,1 +1,24 @@
-<p>company works!</p>
+<div class="cart" *ngFor='let t of card' style="background-image: linear-gradient(to right,rgb(247, 243, 243), rgb(83, 83, 141))">
+    <div class="container">
+        <div class="logo">
+           <img src={{t.img2}}>
+        </div>
+        <div class="text">
+            <div class="textin">
+                <h1>
+                    {{t.h1}}
+                </h1>
+                <p>
+                    {{t.h5}}
+                </p>
+                <div class="buton" style="display: flex;">
+                <button class="btn btn-primary"><a routerLink="/Menu" style="color: white; text-decoration: none">Maxsulot</a></button>
+                <button class="btn" style="background-color: inherit; border-color: #0A84C9; width: 193px">Bog`lanish</button>
+                </div>
+            </div>
+            <div class="text-img">
+               <img src={{t.img1}}>
+            </div>
+        </div>
+    </div>
+</div>

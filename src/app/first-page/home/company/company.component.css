@@ -1,0 +1,54 @@
+.cart {
+    width: 100%;
+    height:  531px;
+    background-image: linear-gradient(to right,rgb(247, 243, 243), rgb(83, 83, 141));
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.cart .container .logo {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.cart .container .logo img {
+    width: 258px;
+    height: 100%;
+    background-size: cover;
+}
+
+.cart .text {
+    display: flex;
+    margin-top: 15px;
+}
+
+.cart .text .textin {
+    width: 50%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.cart .text .textin h1 {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.cart .text .textin p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.cart .text .textin .buton button {
+    margin: 5px;
+    height: 40px;
+}
+
+.cart .text .textin .buton button:hover {
+    box-shadow: 2px 2px rgba(68, 78, 68, 0.219);
+}

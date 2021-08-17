@@ -11,5 +11,13 @@ export class RegistrationComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  y: any;
+  x: any;
+  go(){
+    this.y = document.querySelector(".company");
+    this.x =document.querySelector('.registration');
+    this.y.style.display = "block";
+    this.x.style.height = "1100px"
+  }
 }

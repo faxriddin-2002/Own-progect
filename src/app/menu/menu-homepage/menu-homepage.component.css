@@ -1,0 +1,70 @@
+.menu {
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
+    background-image: linear-gradient(to right,rgba(225, 227, 230, 0.76),rgba(116, 165, 238, 0.445), rgba(15, 110, 235, 0.432));
+}
+.menu .container {
+    display: flex;
+    width: 82%;
+    margin: auto;
+}
+
+.menu .container .homepage-left {
+    width: 40%;
+    height: 100%;
+    margin-top: 140px;
+}
+
+.menu .container .homepage-left .inner-left{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+.menu .container .homepage-left .inner-left h1 {
+    font-style: lobster;
+    font-family:cursive;
+    font-size: 50px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.menu .container .homepage-left .inner-left h6 {
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 30px;
+} 
+
+.menu .container .homepage-left .inner-left form input {
+    box-shadow: 6px 6px rgba(202, 215, 216, 0.199);
+}
+
+.menu .container .homepage-left .inner-left form button {
+    box-shadow: 6px 6px rgba(202, 215, 216, 0.199);
+}
+
+.menu .container .hompage-right {
+    width: 60%;
+    height: 100%;
+    margin-top: 100px;
+    /* background-color: black; */
+}
+
+.menu .container .hompage-right .img {
+    position: relative;
+    align-items: right;
+    width: 65%;
+    height: 100%;
+    /* background-color: white; */
+    margin: auto;
+}
+
+.menu .container .hompage-right .img img {
+    width: 661px;
+    height: 435px;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    justify-content: right;
+}

@@ -1,1 +1,103 @@
-<p>registration works!</p>
+<div class="registration">
+
+    <div class="container">
+        <br>
+        <form class="row g-3">
+        <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Ful Name</label>
+            <input type="text" class="form-control" id="validationDefault01" value="Mark Sucurberk" required>
+        </div>
+    <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Comany Name</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Google" required>
+    </div>
+    <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Company gmail</label>
+        <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <label for="validationDefault03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+    </div>
+    <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">State</label>
+        <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label for="validationDefault05" class="form-label">About Your Company</label>
+     <input type="file" class="form-control" aria-label="file example" required>
+        <div class="invalid-feedback">Example invalid form file feedback</div>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" (click)="go()">comania shartlari</button>
+    </div>
+    <div class="company">
+        <i></i>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nam mollitia cupiditate consectetur eligendi asperiores doloremque ea neque a itaque adipisci hic possimus nesciunt reprehenderit rem cumque delectus laudantium. Dolorum iure quibusdam vero ipsam molestiae eos voluptatibus natus nam. Ullam voluptate iste, quidem ex labore nobis repudiandae beatae id ipsum magni rem quae nulla magnam explicabo nisi. Animi quo aliquam doloribus qui non quas delectus culpa enim! Ipsum dolore iusto delectus adipisci expedita. Corporis sunt laudantium et, error ad recusandae eius maxime temporibus repellendus harum perspiciatis, aliquid cumque praesentium labore quo eveniet minus? Illum eius voluptates atque, esse sequi nisi consequatur quos consequuntur dolorem aut natus in laborum iure minus corporis architecto inventore est corrupti culpa a exercitationem voluptas itaque beatae aliquid? Nulla dolore atque suscipit, eligendi porro aperiam, esse id autem culpa qui consequuntur sunt eaque. Impedit tempora fugiat animi, esse, facilis vero autem repellendus veniam nemo optio expedita.</p>
+    </div>
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+            </label>
+        </div>
+    </div>
+    
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+</form>
+<br><br>
+<form class="was-validated">
+    <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Companiyangiz haqida asosiy malumotlar</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+        <div class="invalid-feedback">
+            Please enter textarea.
+        </div>
+    </div>
+    
+    <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+        <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+        <div class="invalid-feedback">Example invalid feedback text</div>
+    </div>
+    
+    <div class="form-check">
+        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+    </div>
+    <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+        <div class="invalid-feedback">More example invalid feedback text</div>
+    </div>
+    
+    <div class="mb-3">
+        <select class="form-select" required aria-label="select example">
+            <option value="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <div class="invalid-feedback">Example invalid select feedback</div>
+    </div>
+    
+    <div class="mb-3">
+        <input type="file" class="form-control" aria-label="file example" required>
+        <div class="invalid-feedback">Example invalid form file feedback</div>
+    </div>
+    
+    <div class="mb-3">
+        <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+    </div>
+</form>
+</div>
+</div>
